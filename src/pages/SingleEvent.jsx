@@ -1,6 +1,13 @@
 
 export default function SingleEvent() {
   return (
-    <div>SingleEvent</div>
+    <>
+      <div className="ctn_single_evenement h-screen bg-yellow-300">
+        <div>SingleEvent</div>
+        <div>
+          Table
+        </div>
+      </div>
+    </>
   )
 }
